@@ -1,0 +1,21 @@
+body {
+    background-color: cadetblue;
+
+}
+
+#main {
+    background-color: bisque;
+    width: 99%;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+#main #content {
+    margin: 20px;
+    padding: 10px;
+    /* background-color: chocolate; */
+    
+}
+

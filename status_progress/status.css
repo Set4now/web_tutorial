@@ -1,0 +1,43 @@
+.pbar {
+   
+    width: 50;
+    height: 2px;
+    background-color: green;
+    
+    margin: 100px auto;
+    position: relative;
+
+}
+
+.checklist {
+
+    list-style-type: none;
+    position : absolute;
+    top : -25px;
+
+    
+}
+
+.checklist li {
+
+    
+    float: left;
+    
+    padding: 0px 100px 0px 0px;
+
+    
+
+    
+}
+
+.checkbox {
+
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: greenyellow;
+    border: 2px solid green;
+     
+    
+    
+}

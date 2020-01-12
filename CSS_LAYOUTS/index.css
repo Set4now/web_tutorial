@@ -1,0 +1,206 @@
+/*Body Layout*/
+/*===================BODY====================
+*/body {
+
+	background-color: #9c9f84;
+	padding: 0px;
+	font-family: verdana, Georgia;
+	font-size: 14px;
+}
+
+/* Now create the header*/
+/*==================HEADER=================*/
+#header {
+
+	height: 90px;
+	margin: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+	background-color: #5c755e;
+	border-radius: 5px;
+
+}
+
+/*create the Navbars*/
+
+/*Note we are not putting any width parameter
+since we want our elements to be responsive and liquid if we strech our brwoser window.*/
+
+/*======================NAVBAR==================*/
+#navbar ul {
+	padding: 5px;
+	list-style-type: none;
+	text-align: center;
+	/*height: 35px;*/
+	margin: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+	background-color: /*#5c755e*/ grey;
+	border-radius: 5px;
+
+}	
+
+#navbar ul li {
+	display: inline;
+}
+
+#navbar ul li a {
+	text-decoration: none;
+	padding: 5px;
+	font-size: 20px;
+}
+
+#navbar ul li a:hover {
+	color: white;
+	background-color: black;
+}
+
+
+/*Now design the main section */
+/*We will not put height here because we want our main section to be of flexible size not fixed height size like a header 
+and navigation bar. Flexible size will expand according to the size of content inside it.*/
+
+/*======================MAIN CONTENT =================*/
+
+.main {
+
+	background-color: #e5e4d7;
+	border-radius: 5px;
+	margin: 10px;
+	margin-left: 5px;
+	margin-right: 250px; /*This will be side bar's ( width + padding-right + padding-left)*/
+	padding: 20px;
+	font-size: 110%; /*110% of parent element's font-size which in our case is font-size: 14px;*/
+
+}
+
+h1 {
+
+	color: red;
+
+}
+
+/*==================SIDEBAR's======================*/
+.sidebar {
+	background-color: #e5e4d7;
+	border-radius: 5px;
+	margin: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 0px;
+	padding: 20px;
+	font-size: 120%;
+	float: right;
+	width: 200px;
+	clear: right; /*tells the browser to float the elemts top to bottom
+*/
+}
+
+/*adding image as a side bar*/
+.imagesidebar {
+	border-radius: 5px;
+	margin: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 0px;
+	/*padding: 20px;*/
+	height: 300px;
+	float: right;
+	width: 240px;
+	clear: right; /*tells the browser to float the elemts top to bottom */
+	opacity: 1.0; /*adding opacity ( valiue is from 0 to 1)*/
+	transition: opacity 0.5s ease-in-out; /*do whitening after 0.5 secs */
+}
+
+/*Adding hover effect to imagesidebar*/
+
+.imagesidebar:hover {
+
+	opacity: 0.5; /*whiteness of the image*/
+}
+
+
+/*footer is always considered to be last element in the html page*/
+/*===================FOOTER==================*/
+#footer {
+	background-color: #5c755e;
+	height: 60px;
+	margin: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+	border-radius: 5px;
+	clear: both; /*This will make sure that all the floating elements ( both left and right side bars )will be always on the top of this.*/
+	text-align: center;
+
+
+}
+
+
+#footer ul {
+	padding: 5px;
+	list-style-type: none;
+	text-align: center;
+	/*height: 35px;*/
+	margin: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+	border-radius: 5px;
+
+}	
+
+#footer ul li {
+	display: inline;
+}
+
+#footer ul li a {
+	text-decoration: none;
+	padding: 5px;
+	font-size: 20px;
+	color: white;
+}
+
+#footer ul li a:hover {
+	color: white;
+	background-color: black;
+}
+
+/*top: 50%;
+  		-webkit-transform: translateY(-50%);
+  		-ms-transform: translateY(-50%);
+  		transform: translateY(-50%);
+
+The above code will always align the text verically. It's a reusable code*/
+
+h2 {
+
+	text-align: center;
+	font-size: 30px;
+	font-family: "Century Gothic", "Gill Sans", Arial, sans-serif;
+	/*margin: 0px;*/
+  	position: relative;
+  	top: 50%;
+  		-webkit-transform: translateY(-50%);
+  		-ms-transform: translateY(-50%);
+  		transform: translateY(-50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

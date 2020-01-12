@@ -1,0 +1,56 @@
+body {
+    background-color: cornflowerblue;
+    padding: 0px;
+    margin: 0px;
+    
+}
+/* 
+#main {
+
+
+    background-color: cornsilk;
+    width: 100%;
+    margin-top: 0px;
+
+   
+} */
+
+#main #header {
+
+    /* background-color: cyan; */
+    /* padding: 10px; */
+    margin: 0px;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+}
+
+#main #login_form {
+    display: table;
+    text-align: center;
+    height: 100px;
+    padding: 200px;
+    background-color: darkgray;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 20px;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+#main #login_form .row {
+    display: table-row;
+    
+}
+     
+#main #login_form .row label {
+    display: table-cell;
+    padding-right: 2px;
+    text-align:right;
+     
+}
+     
+#main #login_form .row input {
+    display: table-cell;
+    padding: 2px;
+}

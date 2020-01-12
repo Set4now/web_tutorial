@@ -1,0 +1,47 @@
+.custdetails {
+
+
+}
+
+#form {
+
+	display: table;
+	background-color: grey;
+	padding: 40px;
+	font-family: Arial;
+	font-size: 20px;
+	/*font-weight: */
+	margin: auto;
+	margin-top: 100px;
+	border-width: 2px;
+	border-color: black;
+	border-style: solid;
+	border-radius: 5px;
+	color: white;
+}
+
+.row{
+
+	display: table-row;
+}
+
+.row label {
+	display: table-cell;
+	padding: 20px;
+	text-align: right;
+}
+
+.row input {
+
+	display: table-cell;
+	padding-right: 10px;
+
+}
+
+.submit {
+	position: relative;
+	left: 200px;
+	
+
+	/*padding-left: 100px;*/
+}

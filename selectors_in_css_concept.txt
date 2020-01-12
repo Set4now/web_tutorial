@@ -1,0 +1,254 @@
+Selectors:-
+
+Steps in CSS designing :- 
+1. Target the element
+2. Style the content
+
+=================
+
+Types of Selectors:-
+
+1. By type (h1,h2,div,input etc)
+
+h1 {
+	
+
+}
+
+2. 
+
+#ID Selector ( Recommended not to use in other elements)
+one id for each element
+
+#xxxx {
+	
+
+}
+
+<input type="text" name="" id="xxxx">
+
+
+3. 
+
+class ( Reusablke in many elements)
+
+.classname {
+	
+ }
+
+<input type="text" name="" class="classname">
+
+
+4.
+Combine Selectors (multiple comma separated selectors) use comma (,)
+
+h1, h2 {
+	
+}
+
+5.
+The Descendent element
+
+<div>
+<p>hahaha</p>
+</div>
+
+div p {
+	
+
+}
+
+So p is descendent of div element
+
+================
+Rules:- 
+
+The last rule among multiple rules targeting one common selector will be applied .
+==========
+
+6.
+Sibling selectors and adjacent selectors
+
+h1+p {
+	
+   only the first adjacent element
+}
+
+h1~p{
+	
+	all the adjacent elemenst
+
+}
+
+7. Attribute Selectors
+
+Examples:-
+
+Selects elements based off a specified attribute in this case the lang attribute.
+
+p[lang] { 
+    background-color: orange;
+}
+
+=================================================================================
+
+Selects elements based off a attribute with a specific value. In this case
+the lang attribute with a value of "fr".
+
+p[lang="fr"] { 
+    background-color: pink;
+}
+
+=================================================================================
+
+Selects elements whose attribute ENDS with a particular value.
+
+
+p[lang$="o"] { 
+    background-color: yellow;
+}
+
+=================================================================================
+
+Select elements based off an attribute that BEGINS with a specific value. 
+
+
+p[lang^="fr"] { 
+    background-color: grey;
+}
+
+=================================================================================
+
+Selects elements with attribute that contain a particular value 
+ANYWHERE in the attribute.
+
+p[lang*="us"] { 
+    background-color: red;
+}
+
+
+
+8.
+
+nth selector
+
+#right p:nth-child(2n + 4) {
+    background-color: orange;
+}
+p is the paragraph element
+
+9. not Selector
+
+p {
+ 
+color: red;
+   
+}
+ 
+:not(p) {
+ 
+color: darkgreen;
+ 
+}
+
+so :not(p)  will change all the elements inside a html page to change its color to darkgreen except the p element.
+so we don't even need to code css styling for other elements.
+
+
+
+9. First Selector
+
+p::first-letter {
+font-weight:bold;
+font-size: 24px;
+ 
+}
+ 
+p:first-line {
+color:red;
+ 
+}
+
+============================================
+
+
+Opacity
+
+The opacity property in CSS specifies how transparent an element is. Basic use: div { opacity: 0.5; } Opacity has a default initial value of 1 (100% opaque). Opacity is not inherited, but because the parent has opacity that applies to everything within it.
+
+opacity: 0.5
+
+#box2:hover {
+    opacity: 1.0;
+ 
+}
+
+
+Color Combinations:-
+Linar Gradient
+
+
+#box1 {
+    width: 800px;
+    height:300px;
+    float: left;
+    background: blue;
+    background: linear-gradient(blue, yellow);
+}
+
+linear-gradient(to right, blue, yellow)
+linear-gradient(to left, blue, yellow)
+linear-gradient(to top right, blue, yellow)
+
+====
+
+Lets combine opacity and gradient
+
+#box1 {
+    width: 800px;
+    height:300px;
+    float: left;
+    background: blue;
+    background: linear-gradient(to left, rgba(255,255,0,0.3), rgba(0,0,255,1));}
+
+a---> Opacity value
+
+=======
+
+Shadow:-
+
+#text1 {
+ 
+  text-align: center;
+  font: bold 60px Helvetica;
+  text-shadow: 3px 3px 5px orange,6px 6px 10px blue;
+
+
+}
+ 
+ first 3px is for verizontal
+ 2nd for vertical
+ 10px is for blurr
+
+#text2{
+ 
+  text-align: center;
+  font: bold 60px Helvetica;
+  text-shadow: 6px 6px 10px rgba(0, 0, 255,0.3);  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

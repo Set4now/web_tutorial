@@ -1,0 +1,203 @@
+body {
+
+	background-image: url(cloud.jpeg);
+	background-size: 100% 100%; 
+	/*
+	background-size: 100% 100%;      ( stretch the page to the entire screen)
+	*/
+}
+
+h1 {
+
+	color: blue;
+	background-color: yellow;
+	text-align: center;
+
+	/*
+	   text-align: center;   ( allign any heading text in the middle of the screen)
+	*/
+
+}
+
+
+h2 {
+
+	font-weight: lighter;
+}
+
+h3 {
+
+	font-weight: inherit;
+
+}
+p.p1 {
+
+	
+	padding: 20px;
+	background-color: lime;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	margin-left: 700px;
+	margin-right: 10px;
+
+}
+
+.normal {
+
+	padding: 20px;
+	background-color: lime;
+	border-style: solid;
+	border-color: black;
+
+}
+
+/*
+
+center--> padding-->border-->margine
+*/
+
+/*
+
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+	This is the preferred way to acomplish verizontal centering with css.
+
+
+
+*/
+
+.imagec {
+
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	border-color: black;
+	border-width: 2px;
+	border-style: solid;
+	background-color: silver;
+
+}
+
+/*
+
+ #definition  
+ this is called as id, works like class but id is unique to each element
+*/
+
+#definition {
+	color: black;
+	padding: 20px;
+	border-color: red;
+	border-style: solid;
+	border-width: 2px;
+	font-weight: bolder;
+	background-color: pink;
+
+}
+
+
+#History {
+
+	background-color: silver;
+	font-style: italic;
+	font-weight: bolder;
+	padding: 10px;
+
+}
+
+
+/*
+
+Hyperlinks Special effects by Sudo classed
+
+see style.css
+
+a:link {
+	color: blue; 
+}
+
+a:visited {
+	color: grey; when link is visited the color of link will change to grey
+}
+
+a:hover {
+	color: lime; when you hover over it, it will be blinkingin lime color.
+}
+
+*/
+
+a:link {
+	color: blue;
+}
+
+a:visited {
+	color: grey;
+}
+
+a:hover {
+	color: lime;
+}
+
+
+/*
+
+Block and inline elemnts
+
+block elemnts expand though the whole window ( all the tages except image and span)
+inline elements just take the space as needed  ( image,span,anchor(a),input, elements ) . So multiple inline elements can be on the same line.
+
+Note on MArgins:-;
+block elements takes minimum of two elemenst margin
+
+img ( image inline elememt ) takes double the margin of both elements.
+span will take only left and right margins
+
+an inline element can be converted to a block element
+
+display: block;
+
+=====
+
+Absolute position of an element
+
+position: absolute;
+top: 75px;
+left: 100px; or right 
+width: 200px;
+height: 100px;
+
+
+How to float an element
+1. You need to give a width and float 
+float: left;
+width: 250px;
+height : 250px;
+
+
+fixed position - the element will not move even if you drag down the browser.
+position: fixed;
+top: ;
+left: ;
+
+overflow: hidden|scroll|;
+
+
+Cursor property
+cursor: help|hand etc; see docs for more..
+
+
+Relative position vs absolute position
+
+Relative: position determined by the first static element sorrounding 
+
+Absolute : position determined by first non static element;
+
+static:- default and thsi is the flow;
+
+*/
+
+

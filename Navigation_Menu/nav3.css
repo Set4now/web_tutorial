@@ -1,0 +1,66 @@
+
+
+#navbar ul {
+	list-style-type: none;
+
+
+	/*margin: 0px;*/
+
+}
+
+
+* {
+
+	margin: 0px;
+	padding: 0px;
+}
+
+
+#navbar ul li {
+	background-color: #2C3E50;
+	width: 150px;
+	border: 1px solid white;
+	height: 49px;
+	line-height: 50px;
+	text-align: center;
+	float: left;
+
+
+}
+
+
+
+#navbar ul li a {
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+
+}
+
+
+#navbar ul li:hover {
+	background-color: green;
+}
+
+/*hide the nav dropdown*/ 
+#navbar ul li ul {
+	display: none;
+	position: relative;
+
+}
+
+/*show when hover over list item in nav bar*/
+#navbar ul li:hover > ul {
+	display: block;
+}
+
+#navbar ul li ul ul {
+	position: absolute;
+	left: 150px;
+	top: 102px;
+}
+
+#navbar ul li ul ul  {
+	color: white;
+	font-size: 20px;
+}

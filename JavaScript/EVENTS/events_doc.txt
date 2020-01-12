@@ -1,0 +1,22 @@
+Events are used to make websites responsiveness ( dynamic)
+
+javascript code ( functions ) are event handles.
+
+There are many types of Events.
+1. when the user clicks on something ( onclick )
+2. when the website loads, something happens
+
+
+Steps:-
+1. choose the element where we will place our event (button)
+eg. <button> onclick="somefunction()">submit</button>
+
+2. choose the event that you want to it get triggered. (onclick)
+
+step 2 will call the javascript function to do something
+
+onclick ( clicks on a button )
+onmouseover (when a user uses his mouse over an element)
+onmouseout ( opppsite of onmouseover)
+
+

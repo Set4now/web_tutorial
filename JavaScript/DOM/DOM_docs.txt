@@ -1,0 +1,41 @@
+
+===========DOM=========
+Document Object Model
+it's the DOM thats get created when html gets rendered.
+DOM and html both are documents.
+they are just diff representation.
+evry tag has a corresponding object
+javascript works on objects not on html tags directly because html is just a markup language
+
+there are 12 types of nodes
+1. element ( tags)
+2. attribute ( id,class etc)
+3. text (the text inside p)
+
+
+javascript is a two steps process'
+1. get the elements
+2. style or work on the elements
+
+getelementsbytagname
+getelementsbyid
+getelementbyclassName
+
+Traversing the DOM
+function changeText () {
+ 
+var parent = document.getElementById('main');
+var child = parent.firstElementChild;
+var child = parent.lastElementChild;
+child.style.color = "blue";
+ 
+// var child = parent.childNodes[3]; // Note childnodes can contain any nodes including spaces as well
+}
+
+How to get and change the parent?
+var child = document.getElementById('p1');
+var parent = child.parentNode;
+parent.style.color = "blue";
+
+How to get siblings?
+

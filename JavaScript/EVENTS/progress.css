@@ -1,0 +1,14 @@
+#progress1 {
+
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    background-color: green;
+}
+
+#tick {
+
+    text-align: center;
+    color: white;
+    line-height: 30px;
+}

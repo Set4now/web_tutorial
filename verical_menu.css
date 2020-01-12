@@ -1,0 +1,68 @@
+ul  {
+	
+	list-style: none; /* remove the dot icon from the list */
+	padding: 0; /* shift the itmes to the extreme left */
+	margin: 0; /* shift the itmes to the extreme left */
+
+
+}
+
+ul li a {
+
+	display: block; 
+	background-color: #33A5FF;
+	width: 100px;
+	padding: 3px;
+	margin: 10px;
+	margin-left: 0px;
+	text-align: center;
+	border-color: black;
+	border-width: 2px;
+	border-style: solid;
+	height: 50px;
+	color: white;
+	line-height: 45px;
+	text-decoration: none;
+	font-family: Georgia;
+	border-radius: 4px;
+	
+}
+
+/*  
+
+    display: block;  change the anchor inline element to block element
+	background-color: grey; 
+	width: 100px; to make the width of the element 
+	padding: 3px; 
+	margin: 10px;
+	margin-left: 0px;
+	text-align: center;
+	border-color: black;
+	border-width: 2px;
+	border-style: solid;
+	height: 50px;
+	color: white;
+	line-height: 45px; to put the item in the middle of the boxed.
+	text-decoration: none;
+	font-family: Georgia;
+
+
+styling effect
+
+ul li a:hover {
+
+	background-color: #274275;
+
+}
+
+
+
+*/
+
+
+
+ul li a:hover {
+
+	background-color: #274275;
+
+}

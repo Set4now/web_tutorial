@@ -1,0 +1,41 @@
+/*
+
+Block and inline elemnts
+
+block elemnts expand though the whole window ( all the tages except image and span)
+inline elements just take the space as needed  ( image and span elements ) . So multiple inline elements can be on the same line.
+
+Note on MArgins:-;
+block elements takes minimum of two elemenst margin
+
+img ( image inline elememt ) takes double the margin of both elements.
+span will take only left and right margins
+
+an inline element can be converted to a block element
+
+display: block;
+
+
+*/
+
+
+.inlinec {
+	padding: 10px;
+	border-color: black;
+	border-width: 2px;
+	border-style: solid;
+	/*display: block;*/
+}
+
+.side {
+	padding: 10px;
+	border-color: black;
+	border-width: 2px;
+	border-style: solid;
+	margin: 10px;
+	margin-left: auto;
+	/*display: block;*/
+
+}
+
+

@@ -1,0 +1,63 @@
+function get_data(){
+    var req =  new XMLHttpRequest();
+    // var result = document.getElementById("result");
+
+    req.open('POST', '/test', true);
+
+    req.onload = function(){
+        if (this.status == 200){
+            var data = JSON.parse(this.responseText);
+            // console.log(this.responseText)
+            // console.log(JSON.parse(this.responseText))
+            
+        }
+        
+       
+        document.getElementById("result").innerHTML=this.responseText
+    }
+    req.setRequestHeader('content-type', 'application/x-www-form-urlencoded;charset=UTF-8');
+    req.send("name=" + document.getElementById('name').value); // this sends the request with POST parameters 
+    
+}
+
+
+loop in javascript
+
+if the response data is list of dictionries , then how to loop
+
+var customers = JSON.parse(this.responseText);
+
+var output = '';
+
+customers.forEach(function(customer){
+     
+    output += `
+       <p> ${customer.id} </p>
+
+    `
+    }
+);
+
+document.getElementById("result").innerHTML=output;
+
+
+====================================
+
+Call Back functions
+
+function that cab be assigned inside another function nand execute inside that
+
+
+eg.
+
+customers.forEach(function(customer){
+     
+    output += `
+       <p> ${customer.id} </p>
+
+    `
+    }
+);
+
+
+

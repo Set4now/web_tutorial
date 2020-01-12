@@ -1,0 +1,28 @@
+#main {
+
+	padding: 10px;
+	border-color: black;
+	border-width: 10px;
+	background-color: grey;
+	font-weight: bolder;
+	margin: auto;
+
+}
+
+.image {
+
+	/*padding-right: 30px;
+	padding-bottom: 30px;
+	padding-left: 30px;*/
+	padding: 2px;
+	margin-top: 6px;
+	margin-right: 20px;
+	margin-bottom: 200px;
+	float: left;
+	width: 100px;
+	/*border-color: black;
+	border-width: 5px;
+	border-style: bolder;*/
+	background-color: black;
+
+}
